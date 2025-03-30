@@ -6,4 +6,7 @@
 6. Now we do "dvc remote add -d myremote S3".
 7. Next "dvc add data/"
 [output 'data' is already tracked by SCM (e.g. Git).You can remove it from Git, then add to DVC.To stop tracking from Git: git rm -r --cached 'data' then git commit -m "stop tracking data"].
-8. Again we do "dvc add data/" (Creates data.dvc) then "git add data.dvc .gitignore"
+8. Again we do "dvc add data/" (Creates data.dvc) then "git add data.dvc .gitignore".
+9. Now - "dvc commit" and then "dvc push"
+10. Do a git add-commit-push to mark this stage as first version of data.
+11. Again -- "dvc commit" and then "dvc push"
