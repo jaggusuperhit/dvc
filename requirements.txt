@@ -1,0 +1,2 @@
+dvc==3.0.0        # Or your installed DVC version
+pandas==2.1.4     # Or your installed pandas version
